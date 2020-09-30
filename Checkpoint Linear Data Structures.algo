@@ -1,0 +1,33 @@
+ALGORITHM Linear Data Structures
+VAR
+    i,j,n:integer
+    distinct,sum:integer;
+    tab1 : ARRAY_OF integer[i];
+    tab2 : ARRAY_OF integer[j];
+    distinct : integer;
+
+BEGIN
+     write("entrer les elements du premier tableau" );
+ read(tab1[i]);
+    write("entrer les elements du deuxieme tableau" );
+ read(tab2[j]);
+        for ( i = 0; i <tab1.length ; i++) {
+            if (tab[i]<>tab2[j]){
+                i:=i+1;
+                for ( j = 0; j <tab2.length ; j++) { 
+                j:=j+1;
+                distinct :=tab[i];
+                else
+                distinct :=tab[j];
+             write ("les éléments distincts sont ",distinct);
+            }
+        }
+             sum:=0;
+            WHILE (tab[i]<>tab2[j]) DO
+                i:=i+1;
+                j:=j+1;
+                distinct:=sum+1;
+            END_WHILE
+         write ("la sommes des éléments distincts sont ",distinct);
+ end
+
